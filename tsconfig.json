@@ -1,0 +1,60 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "lib": [
+            "ES2022",
+            "DOM",
+            "DOM.Iterable",
+            "ScriptHost"
+        ],
+        "skipLibCheck": true,
+        "noEmit": true,
+        "useDefineForClassFields": true,
+        "strict": true,
+        "jsx": "preserve",
+        "jsxFactory": "h",
+        "jsxFragmentFactory": "Fragment",
+        "importHelpers": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "types": [
+            "vite/client",
+            "node",
+            "unplugin-vue-router/client"
+        ],
+        "forceConsistentCasingInFileNames": true,
+        "paths": {
+            "@/*": [
+                "src/*"
+            ],
+            "@components/*": [
+                "src/components/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue",
+        "src/**/*.d.ts",
+        "tests/**/*.ts",
+        "tests/**/*.tsx",
+        "./typed-router.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        }
+    ]
+}

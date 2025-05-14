@@ -1,0 +1,56 @@
+# Dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Build output
+dist
+dist-ssr
+*.local
+
+# Environment files
+*.env*
+.env
+.env.local
+.env.*.local
+.env_development
+.env_production
+
+# Testing
+/coverage
+/cypress/videos/
+/cypress/screenshots/
+
+# Logs
+logs
+*.log
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Bundle analysis
+stats.html
+
+# TypeScript
+*.tsbuildinfo
+
+# Compiled output
+/www/assets
+/www/index.html
+/www/app-config.json
